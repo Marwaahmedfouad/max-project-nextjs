@@ -14,6 +14,8 @@ export default function NewsDatails({ params }) {
         <h1>{newsItem.title}</h1>
         <time dateTime={newsItem.date}>{newsItem.date}</time>
       </header>
+
+      <h1>test1</h1>
       <p>{newsItem.content}</p>
     </article>
   );
